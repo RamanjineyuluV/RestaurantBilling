@@ -28,10 +28,9 @@ Deploy:
 
 		java -jar <artifact>.war 
 
-
 ## Testing 
 
-- Unit Testing for Services for computing total is at: 
+- Unit Testing for Services for computing Total, GST, Discount is at: 
 
 /restaurantbilling/src/test/java/com/restaurantbilling/service/CalcServiceTest.java
 
