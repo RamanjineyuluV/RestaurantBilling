@@ -6,7 +6,9 @@
 ------------------------------------------------------------
 ## Intent
 
-In an effort to demonstrate Design Principles our Restaurant Billing System is a Single Page Application using Spring Boot, BDD approach utilizing Cucumber, Selenium. On client side, its inspired from ngbp seed application at : https://github.com/ngbp/ngbp for folder organization and a standardized approach.
+In an effort to demonstrate Design Principles our Restaurant Billing System is a Single Page Application using Spring Boot, BDD approach utilizing Cucumber, Selenium. 
+
+On client side, its inspired from ngbp seed application at : https://github.com/ngbp/ngbp for folder organization and a standardized approach.
 
 ------------------------------------------------------------
 
