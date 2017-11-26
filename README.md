@@ -4,7 +4,6 @@
 > Neeta Pandey | neetaparul.pandey@gmail.com 
 > 
 ------------------------------------------------------------
-
 ## Intent
 
 In an effort to demonstrate Design Principles our Restaurant Billing System is a Single Page Application using Spring Boot, BDD approach utilizing Cucumber, Selenium. On client side, its inspired from ngbp seed application at : https://github.com/ngbp/ngbp for folder organization and a standardized approach.
@@ -13,8 +12,9 @@ In an effort to demonstrate Design Principles our Restaurant Billing System is a
 
 ## Goals
 
-Use Best Practices and Design Principles for a Single Page Application using Spring Boot.
- 
+* Use Best Practices and Design Principles for a Single Page Application using Spring Boot.
+* Demonstrate a BDD approach using Cucumber, Selenium
+* Give a simple unit test for restaurant bill computations
 
 ------------------------------------------------------------
 
