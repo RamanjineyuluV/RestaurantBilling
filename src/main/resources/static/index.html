@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="appCtrl">
+  <head>
+    <title ng-bind="pageTitle"></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  font awesome from BootstrapCDN -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- compiled CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/restaurantbilling-1.0.0.css" />
+
+    <!-- compiled JavaScript -->
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js"></script>
+    <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="src/app/app.js"></script>
+    <script type="text/javascript" src="src/app/sections/orders/orders.js"></script>
+    <script type="text/javascript" src="src/app/sections/create/create.js"></script>
+    <script type="text/javascript" src="src/app/models/OrdersModel.js"></script>
+    <script type="text/javascript" src="src/app/services/OrdersService.js"></script>
+
+  </head>
+
+  <body>
+
+  <div>
+  <h1 style="text-align:center" >
+      Restaurant Billing System
+  </h1>
+
+
+    <ul class="nav nav-tabs" role="tablist">
+     
+      <li ng-class="(pageTitle==='Restaurant Billing System')?'active':''">
+        <a href="#/orders"><i class="fa fa-cogs"></i> Orders</a>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="page-background">
+
+    <div class="container white-bordered-panel" ui-view="main"></div>
+
+    <div class="container align-center">
+  
+      </br>
+      <p></p>
+      <p>1.0.0</p>
+    </div>
+
+  </div>
+
+
+  <div ng-if="!isReady" class="loading-overlay">
+    <div class="modal show-block">
+      <div class="modal-dialog">
+        <div class="modal-content align-center loading-overlay-modal">
+          <img width="24" height="24" src="./assets/images/ajax-loader.gif"/>
+
+          <h2>Initializing...</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Adding order for a subtotal 1000 Standard arrangement",
+        "description": "",
+        "id": "test-out-restaurant-billing-system.;adding-order-for-a-subtotal-1000-standard-arrangement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12123377333,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I go to app create page at \u0027http://localhost:8080/#/create\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:8080/#/create",
+                  "offset": 28
+                }
+              ],
+              "location": "CucumberSteps.i_have_test_data_in_table_format(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2431830115,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I create an order for customer name \u0027Case 1\u0027 having \u0027Standard\u0027 arrangment and a Subtotal 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Case 1",
+                  "offset": 37
+                },
+                {
+                  "val": "Standard",
+                  "offset": 53
+                },
+                {
+                  "val": "1000",
+                  "offset": 89
+                }
+              ],
+              "location": "CucumberSteps.i_create_an_order_for_customer_name_Case_having_Outdoor_arrangment_and_a_Subtotal(String,String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490106022,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see an ouput of Discount 0 , having GST 50 and a Total 1050",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 27
+                },
+                {
+                  "val": "50",
+                  "offset": 42
+                },
+                {
+                  "val": "1050",
+                  "offset": 57
+                }
+              ],
+              "location": "CucumberSteps.i_see_an_ouput_of_Discount_having_GST_and_a_Total(int,int,int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test out restaurant billing system.",
+    "description": " Try variety of permutations of Subtotal, Arrangement inputs for testing restaurant billing system.",
+    "id": "test-out-restaurant-billing-system.",
+    "keyword": "Feature",
+    "uri": "restaurantbilling.feature"
+  }
+]

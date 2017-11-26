@@ -1,0 +1,19 @@
+.noprofile-view > .image-container > .text {
+    font-size: 65px;
+    line-height: 40px;
+}
+
+.nostoredata-view > .image-container > .text {
+    font-size: 65px;
+    line-height: 40px;
+}
+
+.nostore-view > .image-container > .text {
+    font-size: 65px;
+    line-height: 40px;
+}
+
+.breadcrumb > li {
+    display: inline-block;
+    margin-right: 1px;
+}
